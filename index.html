@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Orbit Labs builds fast, calm digital products for teams that care about craft.">
+  <title>Orbit Labs — Digital products, built with care</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Orbit Labs home">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span>orbit<span class="brand-dot">.</span>labs</span>
+    </a>
+
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#approach">Approach</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu">
+      <span></span><span></span>
+      <span class="sr-only">Toggle menu</span>
+    </button>
+  </header>
+
+  <div class="mobile-menu" id="mobile-menu" hidden>
+    <a href="#work">Work</a>
+    <a href="#approach">Approach</a>
+    <a href="#contact">Contact</a>
+  </div>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Independent product studio</p>
+        <h1>Digital products,<br>built with <em>care.</em></h1>
+        <p class="lede">We design and ship websites that feel effortless — fast to load, simple to use, and made to last.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#work">See our work</a>
+          <a class="button button-ghost" href="#contact">Start a project</a>
+        </div>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="orbit orbit-one"></div>
+        <div class="orbit orbit-two"></div>
+        <div class="orbit orbit-three"></div>
+        <div class="core"></div>
+        <div class="satellite satellite-a"></div>
+        <div class="satellite satellite-b"></div>
+      </div>
+    </section>
+
+    <section class="stats" aria-label="Studio at a glance">
+      <div><strong data-count="48">0</strong><span>products shipped</span></div>
+      <div><strong data-count="12">0</strong><span>years together</span></div>
+      <div><strong data-count="99">0</strong><span>percent happy clients</span></div>
+      <div><strong data-count="4">0</strong><span>continents reached</span></div>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Selected work</p>
+        <h2>Things we're proud of</h2>
+      </div>
+      <div class="work-grid">
+        <article class="work-card">
+          <div class="work-visual visual-one" aria-hidden="true"><span>01</span></div>
+          <div class="work-meta">
+            <h3>Harbor Analytics</h3>
+            <p>Clear dashboards for messy data.</p>
+            <span class="tag">Product design</span>
+          </div>
+        </article>
+        <article class="work-card">
+          <div class="work-visual visual-two" aria-hidden="true"><span>02</span></div>
+          <div class="work-meta">
+            <h3>Fieldnotes</h3>
+            <p>A quieter place to write and think.</p>
+            <span class="tag">Web app</span>
+          </div>
+        </article>
+        <article class="work-card">
+          <div class="work-visual visual-three" aria-hidden="true"><span>03</span></div>
+          <div class="work-meta">
+            <h3>Solstice Shop</h3>
+            <p>Small-batch goods, beautifully presented.</p>
+            <span class="tag">Commerce</span>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section approach" id="approach">
+      <div class="section-heading">
+        <p class="eyebrow">How we work</p>
+        <h2>Small steps, solid results</h2>
+      </div>
+      <ol class="steps">
+        <li><span>01</span><h3>Listen first</h3><p>We start with your people, not our templates.</p></li>
+        <li><span>02</span><h3>Sketch fast</h3><p>Real prototypes early, so feedback stays cheap.</p></li>
+        <li><span>03</span><h3>Build tight</h3><p>Accessible, responsive, and quick on any device.</p></li>
+        <li><span>04</span><h3>Stay close</h3><p>We keep improving after launch, together.</p></li>
+      </ol>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-card">
+        <p class="eyebrow">Say hello</p>
+        <h2>Have something in mind?</h2>
+        <p class="lede">Tell us what you're building. We'll reply within two working days.</p>
+        <a class="button button-primary" href="mailto:hello@orbitlabs.example">hello@orbitlabs.example</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year">2026</span> Orbit Labs. Made with care.</p>
+    <a href="#top">Back to top ↑</a>
+  </footer>
+</body>
+</html>
